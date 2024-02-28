@@ -11,28 +11,28 @@ import java.util.ArrayList;
  * @author 1059237643
  */
 public class Persona {
-    private String Identificador;
+    private String Identificacion;
     private String Nombre;
     public ArrayList<Perro>lsperros;
     
     public Persona(){ 
     }
 
-    public Persona(String Identificador, String Nombre) {
-        this.Identificador = Identificador;
+    public Persona(String Identificacion, String Nombre) {
+        this.Identificacion = Identificacion;
         this.Nombre = Nombre;
     }
 
-    public void setIdentificador(String Identificador) {
-        this.Identificador = Identificador;
+    public void setIdentificacion(String Identificacion) {
+        this.Identificacion = Identificacion;
     }
 
     public void setNombre(String Nombre) {
         this.Nombre = Nombre;
     }
 
-    public String getIdentificador() {
-        return Identificador;
+    public String getIdentificacion() {
+        return Identificacion;
     }
 
     public String getNombre() {
